@@ -8,7 +8,7 @@ public class Product {
     private String name;
     private int price;
 
-    public Product() {
+    public Product(Product byId) {
     }
 
     public Product(int id, String name, int price) {

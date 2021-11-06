@@ -7,9 +7,6 @@ public class Book extends Product {
     private int pages;
     private int publishedYear;
 
-    public Book() {
-        super();
-    }
 
     public Book(int id, String name, int price, String author, int pages, int publishedYear) {
         super(id, name, price);
