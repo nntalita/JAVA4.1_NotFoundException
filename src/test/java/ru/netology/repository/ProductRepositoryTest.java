@@ -39,7 +39,7 @@ class ProductRepositoryTest {
 
     @Test
     public void shouldDeleteByMissingId() {
-        assertThrows(RuntimeException.class, () -> {
+        assertThrows(NotFoundException.class, () -> {
             repository.removeById(-2);
         });
     }
